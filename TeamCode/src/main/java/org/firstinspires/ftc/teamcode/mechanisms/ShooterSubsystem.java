@@ -19,7 +19,7 @@ public class ShooterSubsystem extends SubsystemBase {
 
     public static double kP = 0.003;
     public static double kD = 0.1;
-    public static double kF = 0.2;   // feedforward guess
+    public static double kF = 0.2;   
 
     public ShooterSubsystem(HardwareMap hardwareMap) {
         shooterMotor1 = hardwareMap.get(DcMotorEx.class, "shooterMotor1");
